@@ -294,7 +294,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: "Playfair Display","Droid Serif",Helvetica,Arial,cursive;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -317,7 +317,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif;
+        font-family: "Playfair Display","Droid Serif",Helvetica,Arial,cursive;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -346,7 +346,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: "Playfair Display","Droid Serif",Helvetica,Arial,cursive;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -426,7 +426,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: "Playfair Display","Droid Serif",Helvetica,Arial,cursive;
     font-size: 16px;
     font-style: italic;
 }
@@ -804,7 +804,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-family: "Playfair Display","Droid Serif",Helvetica,Arial,cursive;
     font-size: 16px;
     font-style: italic;
 }

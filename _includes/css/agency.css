@@ -845,6 +845,10 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.modal-body {
+    padding:0px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};

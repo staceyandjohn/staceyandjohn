@@ -13,20 +13,18 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            <h3>{{ post.subtitle }}</h3>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <iframe style="display:block; width:100vw; min-height:56vw; max-width: 100%; border:none; margin:0 0 1em 0; padding:0; overflow:hidden; z-index:999999;" src="{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"> -->
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <li>Venue
+                                    <strong><a href="http://startbootstrap.com">{{ post.venue }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                     </strong>
                                 </li>
                             </ul>

@@ -5,85 +5,20 @@
     <description>Live Acoustic Duo for Events, Parties &amp; Weddings</description>
     <link>http://localhost:4000/staceyandjohn/</link>
     <atom:link href="http://localhost:4000/staceyandjohn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Jan 2020 08:56:25 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Jan 2020 08:56:25 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 10:26:58 +0000</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2020 10:26:58 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Dreams</title>
-        <description>
-</description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/18/project-1/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Escape</title>
-        <description>
-</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/17/project-2/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Golden</title>
-        <description>
-</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/16/project-3/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Treehouse</title>
+        <title>For Once In My Life</title>
         <description>
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/15/project-4/</guid>
+        <link>http://localhost:4000/staceyandjohn/video/2014/07/15/for-once-in-my-life/</link>
+        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/video/2014/07/15/for-once-in-my-life/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Round Icons</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/15/project-6/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Startup Framework</title>
-        <description>
-</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/staceyandjohn/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/web%20development/2014/07/14/project-5/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>video</category>
         
       </item>
     

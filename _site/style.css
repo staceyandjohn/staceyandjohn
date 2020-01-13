@@ -853,6 +853,10 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.modal-body {
+    padding:0px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #7bc2d2;

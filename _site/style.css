@@ -279,7 +279,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('/staceyandjohn/img/header-bg.jpg');
-    background-position: center center;
+    background-position: left center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;

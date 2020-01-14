@@ -43,11 +43,11 @@ description: "Live Acoustic Duo for Events, Parties & Weddings"
 #       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com/staceyandjohn
-    - title: instagram
-    url: https://www.instagram.com/staceyandjohn
+# social:
+#   - title: Facebook
+#     url: https://www.facebook.com/staceyandjohn
+#     - title: Instagram
+#     url: https://www.instagram.com/staceyandjohn
 
 # Postal address (add as many lines as necessary)
 address:

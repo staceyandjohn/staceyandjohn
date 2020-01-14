@@ -82,7 +82,7 @@ h3 {
 }
 
 .btn-primary {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -95,7 +95,7 @@ h3 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     color: #fff;
     background-color: #e70c54;
 }
@@ -121,7 +121,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     background-color: #7bc2d2;
 }
 
@@ -132,7 +132,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -147,7 +147,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     color: #fff;
     background-color: #e70c54;
 }
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     background-color: #7bc2d2;
 }
 
@@ -204,7 +204,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #7bc2d2;
+    /*border-color: #7bc2d2;*/
     background-color: #7bc2d2;
 }
 

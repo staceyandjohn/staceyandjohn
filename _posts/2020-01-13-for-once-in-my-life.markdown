@@ -2,7 +2,7 @@
 title: For Once In My Life
 subtitle: Stevie Wonder
 layout: default
-modal-id: 6
+modal-id: 1
 date: 2019-11-09
 img: foronceinmylife.png
 video: https://www.youtube.com/embed/DGzT-ODdTJE

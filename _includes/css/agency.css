@@ -66,11 +66,11 @@ h3 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #fff;
 }
 
 .btn-primary {
@@ -78,7 +78,7 @@ h3 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: #e70c54;
     background-color: #{{ site.data.template.color.primary }};
 }
 

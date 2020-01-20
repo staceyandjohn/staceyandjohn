@@ -670,14 +670,14 @@ aside.clients img {
 }
 
 section#book {
-    background-color: #222;
+    background-color: #FFF;
     /*background-image: url('//img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#book .section-heading {
-    color: #fff;
+    color: #222;
 }
 
 section#book .form-group {

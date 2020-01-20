@@ -3,10 +3,10 @@
   <channel>
     <title>Stacey &amp; John</title>
     <description>Live Acoustic Duo for Events, Parties &amp; Weddings</description>
-    <link>http://localhost:4000/staceyandjohn/</link>
-    <atom:link href="http://localhost:4000/staceyandjohn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Jan 2020 07:49:47 +0000</pubDate>
-    <lastBuildDate>Tue, 14 Jan 2020 07:49:47 +0000</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 20 Jan 2020 21:57:20 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Jan 2020 21:57:20 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/staceyandjohn/video/2019/11/09/for-once-in-my-life/</link>
-        <guid isPermaLink="true">http://localhost:4000/staceyandjohn/video/2019/11/09/for-once-in-my-life/</guid>
+        <link>http://localhost:4000//video/2019/11/09/for-once-in-my-life/</link>
+        <guid isPermaLink="true">http://localhost:4000//video/2019/11/09/for-once-in-my-life/</guid>
         
         
         <category>video</category>

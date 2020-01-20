@@ -78,7 +78,7 @@ h3 {
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #fff;
 }
 
 .btn-primary {
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -222,7 +222,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #222;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -270,7 +270,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         box-sizing: border-box;
-        background-color: #222;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -282,7 +282,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/staceyandjohn/img/header-bg.jpg');
+    background-image: url('//img/header-bg.jpg');
     background-position: left center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -671,7 +671,7 @@ aside.clients img {
 
 section#book {
     background-color: #222;
-    /*background-image: url('/staceyandjohn/img/map-image.png');*/
+    /*background-image: url('//img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    border-color: transparent;
+    /*border-color: transparent;*/
     background-color: #fff;
 }
 

@@ -12,6 +12,5 @@ project-date: April 2014
 venue: Printers Playhouse
 category: video
 description: 
-
 ---
 

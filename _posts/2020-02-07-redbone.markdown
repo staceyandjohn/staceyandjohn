@@ -1,0 +1,15 @@
+---
+title: Redbone
+subtitle: Childish Gambino
+layout: default
+modal-id: 1
+date: 2019-11-09
+img: redbone.png
+video: https://www.youtube.com/watch?v=fL6d8WQH-NY
+thumbnail: redbone.png
+alt: Redbone
+project-date: April 2014
+venue: Printers Playhouse
+category: video
+description: 
+---

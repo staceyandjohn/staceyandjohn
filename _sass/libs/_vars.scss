@@ -1,0 +1,50 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0s,
+		transition:			0s,
+		banner:				0s,
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Poppins', Helvetica, sans-serif),
+		header:				('Poppins', 'cursive'),
+		family-fixed:		('Poppins', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				#ffffff,
+		fg:					#2f2f2f,
+		fg-bold:			#2f2f2f,
+		fg-light:			#E6BEAE,
+		border:				#E6BEAE,
+		border-bg:			#ffffff,
+		highlight:			#E6BEAE,
+		accent1:			#E6BEAE,
+		accent2:			#B2967D,
+		accent3:			#E7D8C9,
+		accent4:			#EEE4E1,
+		accent5:			#ffffff,
+		accent6:			#ffffff,
+	);
+
+

@@ -1,0 +1,330 @@
+<section style="box-sizing: border-box; margin-bottom: 2em;">
+	
+    <!-- Guitar -->
+    <input class="binding" value="200" type="hidden" name="{{ page.title }}" > 
+
+	<!-- Body -->
+    <h2>Select Pickups</h2>
+    <h3>Pickup Type</h3>
+	<div class="select-wrapper" style="margin-top: 1em; margin-bottom: 1em;">		
+        <select name="pickup-type" id="pickup-type" onchange="updateTotals()" required>
+			<option disabled value>Choose Pickups</option>
+            <option name="stype" value="single-coil-s:0" selected>Single Coil (S type)</option>
+            <option name="ash" value="single-coil-t:0">Single Coil (T type)</option>
+            <option name="ash" value="jazzmaster:0">Jazzmaster</option>
+            <option name="ash" value="jaguar:0">Jaguar</option>
+            <option name="ash" value="p90-dogear:0">P90 Dogear</option>
+            <option name="ash" value="p90-soapbar:0">P90 Soapbar</option>
+            <option name="ash" value="humbucker:0">Humbucker</option>
+            <option name="ash" value="humbucker-rail:0">Humbucker (rail)</option>
+            <option name="ash" value="humbucker-mini:0">Humbucker (mini)</option>
+            <option name="ash" value="humbucker-firebird:0">Humbucker (firebird)</option>
+            <option name="ash" value="humbucker-filtertron:0">Humbucker (filtertron)</option>
+            <option name="ash" value="p-bass:0">P Bass</option>
+            <option name="ash" value="jazz-bass:0">Jazz Bass</option>
+            <option name="ash" value="bass-rail:0">Bass Rail Humbucker</option>
+            <option name="ash" value="bass-single-coil:0">Bass Single Coil</option>
+		</select>
+	</div>
+</section>
+
+<!-- S-type -->
+<section id="s-type-options" style="box-sizing: border-box; margin-bottom: 1em; display: block;">
+    <h3 style="margin-bottom: 0.5em">S-type Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="330" type="radio" id="Radio1" name="s-type" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio1">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="115" type="radio" id="Radio2" name="s-type" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio2">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<!-- T-type -->
+<section id="t-type-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+	<h3 style="margin-bottom: 0.5em">T-type Pickups</h3>
+    <table class="alt">
+        <tbody>
+    		<tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio3" name="t-type" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio3">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="115" type="radio" id="Radio4" name="t-type" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio4">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- T-type Individual -->
+    <div id="ttype-individual" style="display: none;">
+        <h4>Select individual Pickups</h4>
+        <table class="alt">
+            <tbody>
+                <tr>
+        			<td>
+        				<input class="binding" value="0" type="radio" id="Radio5" name="pickup-position" data-toggle="checkbox">
+        				<label class="checkbox" for="Radio5">Neck Pickup</label>
+        			</td>
+                    <td>
+                        <input class="binding" value="0" type="radio" id="Radio6" name="pickup-position" data-toggle="checkbox">
+                        <label class="checkbox" for="Radio6">Bridge Pickup</label>
+                    </td>
+        		</tr>
+    		</tbody>
+    	</table>
+    </div>
+</section>
+
+<!-- Jazzmaster -->
+<section id="jazzmaster-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Jazzmaster Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="280" type="radio" id="Radio7" name="jazzmaster" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio7">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="150" type="radio" id="Radio8" name="jazzmaster" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio8">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Jaguar -->
+<section id="jaguar-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Jaguar Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio9" name="jaguar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio9">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="115" type="radio" id="Radio10" name="jaguar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio10">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- P90-Dogear -->
+<section id="p90-dogear-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">P90 Dogear Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="310" type="radio" id="Radio11" name="p90-dogear" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio11">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="165" type="radio" id="Radio12" name="p90-dogear" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio12">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- P90-Soapbar -->
+<section id="p90-soapbar-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">P90 Soap Bar Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="280" type="radio" id="Radio13" name="p90-soapbar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio13">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="165" type="radio" id="Radio14" name="p90-soapbar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio14">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Humbucker -->
+<section id="humbucker-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="460" type="radio" id="Radio15" name="humbucker-full" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio15">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="245" type="radio" id="Radio16" name="humbucker-full" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio16">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Rail Humbucker -->
+<section id="rail-humbucker-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Rail Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="460" type="radio" id="Radio17" name="humbucker-rail" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio17">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="245" type="radio" id="Radio18" name="humbucker-rail" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio18">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Mini Humbucker -->
+<section id="mini-humbucker-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Mini Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="410" type="radio" id="Radio19" name="humbucker-mini" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio19">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio20" name="humbucker-mini" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio20">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Firebird Humbuckers -->
+<section id="firebird-humbucker-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Firebird Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="410" type="radio" id="Radio21" name="humbucker-firebird" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio21">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio22" name="humbucker-firebird" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio22">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Filtertron Humbuckers -->
+<section id="filtertron-humbucker-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Filtertron Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="460" type="radio" id="Radio23" name="humbucker-filtertron" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio23">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio24" name="humbucker-filtertron" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio24">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- P Bass -->
+<section id="p-bass-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">P Bass Set</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio25" name="p-bass-set" data-toggle="checkbox" checked> 
+                    <label class="checkbox" for="Radio25">Full Set</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Jazz Bass -->
+<section id="jazz-bass-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Jazz Bass Pickups</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="280" type="radio" id="Radio27" name="jazz-bass" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio27">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="165" type="radio" id="Radio28" name="jazz-bass" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio28">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Bass Rail Humbucker -->
+<section id="bass-rail-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Bass Rail Humbuckers</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+                <td width="50%">
+                    <input class="binding" value="460" type="radio" id="Radio29" name="p90-soapbar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio29">Full Set</label>
+                </td>
+                <td width="50%">
+                    <input class="binding" value="215" type="radio" id="Radio30" name="p90-soapbar" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio30">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Bass Single Coil -->
+<section id="bass-single-coil-options" style="box-sizing: border-box; margin-bottom: 1em; display: none;">
+    <h3 style="margin-bottom: 0.5em">Single Coil Bass Pickup</h3>
+    <table class="alt">
+        <tbody>
+            <tr width="100%">
+<!--                 <td width="50%">
+                    <input class="binding" value="280" type="radio" id="Radio31" name="single-coil-bass" data-toggle="checkbox"> 
+                    <label class="checkbox" for="Radio31">Full Set</label>
+                </td> -->
+                <td width="50%">
+                    <input class="binding" value="165" type="radio" id="Radio32" name="single-coil-bass" data-toggle="checkbox" checked> 
+                    <label class="checkbox" for="Radio32">Individual Pickup</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>

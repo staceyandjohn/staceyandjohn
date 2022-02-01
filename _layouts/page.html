@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    <div class="inner">
+		<div class="inner row uniform">
+			<div class="12u 12u$(medium) links">
+			<h1>{{ page.title }}</h1>
+			{{ content }} 
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+
+</body>
+
+</html>

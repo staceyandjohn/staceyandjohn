@@ -1,58 +1,33 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
-            </div>
+<!-- Wrapper -->
+<div id="wrapper">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About Us</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#videos">Music & Videos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#book">Book Us</a>
-                    </li>            
-                    <li>
-                        <a class="page-scroll" href="#testimonials">Testimonials</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<!-- <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a> -->
+	<!-- <a href="{{ "" | absolute_url }}" id="header-logo-container">
+		<img id="header-logo" src="{{ "/assets/images/logo.svg" | relative_url}}">
+	</a> -->
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Events, Parties & Weddings</div>
-                <div class="intro-heading">Live Acoustic Duo</div>
-                <a href="#music" class="page-scroll btn btn-xl">Find Out More</a>
-            </div>
-        </div>
-    </header>
-<!--
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
         {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+		    {% if page.layout == "home"%}
+		        <li><a href="{{ "" | absolute_url }}">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% assign sorted_pages = site.html_pages | sort:"order" %}
+		{% for page in sorted_pages %}
+		    {% if page.layout != "home" and page.nav-menu == true | sort:"order" %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+		<br/>
+		<li><a href="{{ '../rsvp' | absolute_url }}" class="button special fit">RSVP now</a></li>		
+	</ul>
+</nav>
 

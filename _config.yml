@@ -1,59 +1,49 @@
-url: https://staceyandjohn.co.uk
-baseurl: 
+# site settings
+title: Stacey and John are getting married on 28 May 2022
+subtitle: 28 May 2022
+email: wedding@johnhayn.es
+description:  
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://staceyandjohn.github.io # the base hostname & protocol for your site
+author:
+street_address: 
+city:
+state: 
+zip_code: 
+country:
+phone:
+permalink: /:title/
 
-# Site settings
-title: Stacey & John
-email: mail@staceyandjohn.co.uk
-description: "Live Acoustic Duo for Events, Parties & Weddings"
+repository: staceyandjohn.github.io/staceyandjohn
 
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 5
 
-# Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
+# social settings
+facebook_url: 
+instagram_url: https://www.instagram.com/staceyandjohn/
+youtube_url: 
 
-# - name: Larry Parker
-#   pic: 2
-#   position: Lead Marketer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: linkedin
-#       url: #
-
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# social:
-#   - title: Facebook
-#     url: https://www.facebook.com/staceyandjohn
-#     - title: Instagram
-#     url: https://www.instagram.com/staceyandjohn
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 
-  - line: 
-
-# Build settings
+# build settings
 markdown: kramdown
-permalink: pretty
+
+sass:
+  style: compressed
+
+# sitemap
+plugins:
+  - jekyll-sitemap
+  - jekyll-airtable
+  - environment_variables_generator
+
+airtable:
+  enable_sync: true
+  base_uid: 'appp7C1MblPCnMePn'
+  airtable_api_key: ${{ secrets.GH_PAGES_TOKEN }}
+  tables:
+    - name: 'Use Cases' 
+    - name: 'Whitepapers'    
+    - name: 'Quotes'
+      long_text_columns:
+        - 'column name'

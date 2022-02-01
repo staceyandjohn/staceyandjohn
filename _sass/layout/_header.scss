@@ -210,7 +210,7 @@
 		@include breakpoint(small) {
 			/* height: 2.75em; */
 			line-height: 2.75em;
-			padding: 6em;
+			padding: 6em 1em;
 
 			.logo {
 				padding: 0 1em;
@@ -234,7 +234,7 @@
 					}
 
 					&[href="#menu"] {
-						padding-right: 3.25em !important;
+						padding-right: 1em !important;
 						align-self: center;
 
 						&:before, &:after {
@@ -254,6 +254,7 @@
 		}
 
 		@include breakpoint(xsmall) {
+
 			.logo {
 				span {
 					display: none;

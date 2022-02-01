@@ -14,7 +14,7 @@ show_tile: false
 </div> -->
 <div class="8u 12u$(small)" style="margin-bottom: 2em">
 	<h2>The Day</h2>
-	<p>Please aim to <strong>arrive at <a>the venue</a> at 4:00pm</strong></p>
+	<p>Please aim to <strong>arrive at <a href="../venue">the venue</a> at 4:00pm</strong></p>
 	<h3>The ceremony</h3>
 	<p><strong>The ceremony starts at 4:30pm</strong> and will last approximately 30-40 minutes. A drinks reception will follow, outside on the lawn if the weather permits.</p>
 	<p>Guests will be served canapés.</p>

@@ -19,9 +19,6 @@
 <loc>http://localhost:4000/rsvp/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/schedule/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/venue/</loc>
 </url>
 </urlset>

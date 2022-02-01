@@ -7,11 +7,11 @@ author: null
 show_tile: false
 ---
 
-<div class="4u 12u$(small)" style="margin-bottom: 2em">
+<!-- <div class="4u 12u$(small)" style="margin-bottom: 2em">
     <span class="image">
         <img src="assets/images/{{ page.image }}" alt="">
     </span>
-</div>
+</div> -->
 <div class="8u 12u$(small)" style="margin-bottom: 2em">
 	<h2>The Day</h2>
 	<p>Please aim to <strong>arrive at <a>the venue</a> at 4:00pm</strong></p>
@@ -34,8 +34,8 @@ show_tile: false
 	<h3>Taxis</h3>
 	<p><strong>The music and the bar finish at 11pm</strong>, so taxis should be booked for 11:15pm at the latest.</p>
 </div>
-<div class="4u 12u$(small)" style="margin-bottom: 2em">
+<!-- <div class="4u 12u$(small)" style="margin-bottom: 2em">
     <span class="image">
         <img src="assets/images/{{ page.image }}" alt="">
     </span>
-</div>
+</div> -->

@@ -21,14 +21,14 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Starter</h3>
 		<div class="field half first" style="margin-bottom: 0;">
-			<input type="radio" id="meat2" name="starter_guest1" value="meat1a">
+			<input type="radio" id="meat1a" name="starter_guest1" value="meat1a">
 			<label for="meat1a">
 				<h4>Chicken liver parfait</h4>
 				<p style="margin-bottom:0;">Burnt onion jam, toasted seed bread</p>
 			</label>
 		</div>
 		<div class="field half" style="margin-bottom: 0;">
-			<input type="radio" id="veg2" name="starter_guest1" value="veg1a">
+			<input type="radio" id="veg1a" name="starter_guest1" value="veg1a">
 			<label for="veg1a">
 				<h4>Tomato, basil and aubergine stacks</h4>
 				<p style="margin-bottom:0;">Finished with vegan pesto (includes mozerella or vegan cheese)</p>
@@ -36,14 +36,14 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Main course</h3>
 		<div class="field half first" style="margin-bottom: 0;">
-			<input type="radio" id="meat" name="main_guest1" value="meat1b">
+			<input type="radio" id="meat1b" name="main_guest1" value="meat1b">
 			<label for="meat1b">
 				<h4>Meat option</h4>
 				<p style="margin-bottom:0;">description</p>
 			</label>
 		</div>
 		<div class="field half" style="margin-bottom: 0;">
-			<input type="radio" id="veg" name="main_guest1" value="veg1b">
+			<input type="radio" id="veg1b" name="main_guest1" value="veg1b">
 			<label for="veg1b">
 				<h4>Veg option</h4>
 				<p style="margin-bottom:0;">description</p>
@@ -78,14 +78,14 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Starter</h3>
 		<div class="field half first" style="margin-bottom: 0;">
-			<input type="radio" id="meat2" name="starter_guest2" value="meat2a">
+			<input type="radio" id="meat2a" name="starter_guest2" value="meat2a">
 			<label for="meat2a">
 				<h4>Chicken liver parfait</h4>
 				<p style="margin-bottom:0;">Burnt onion jam, toasted seed bread</p>
 			</label>
 		</div>
 		<div class="field half" style="margin-bottom: 0;">
-			<input type="radio" id="veg2" name="starter_guest2" value="veg2a">
+			<input type="radio" id="veg2a" name="starter_guest2" value="veg2a">
 			<label for="veg2a">
 				<h4>Tomato, basil and aubergine stacks</h4>
 				<p style="margin-bottom:0;">Finished with vegan pesto (includes mozerella or vegan cheese)</p>
@@ -93,14 +93,14 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Main course</h3>
 		<div class="field half first" style="margin-bottom: 0;">
-			<input type="radio" id="meat2" name="main_guest2" value="meat2b">
+			<input type="radio" id="meat2b" name="main_guest2" value="meat2b">
 			<label for="meat2b">
 				<h4>Meat option</h4>
 				<p style="margin-bottom:0;">description</p>
 			</label>
 		</div>
 		<div class="field half" style="margin-bottom: 0;">
-			<input type="radio" id="veg2" name="main_guest2" value="veg2b">
+			<input type="radio" id="veg2b" name="main_guest2" value="veg2b">
 			<label for="veg2b">
 				<h4>Veg option</h4>
 				<p style="margin-bottom:0;">description</p>

@@ -3,7 +3,13 @@ layout: page
 title: Gifts
 description: 'gifts'
 nav-menu: false
-image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 ---
 
-## TBC
+## We're planning a trip to Vietnam
+We
+
+* Cruise in Ha Long Bay
+* 
+* 
+
+If you'd like to 

@@ -28,7 +28,7 @@ show_tile: false
 	<h2>The Evening</h2>
 	<p>The evening activities <strong>start at 8pm</strong>.</p>
 	<h3>Music</h3>
-	<p>We'll take to the dance floor at 8pm for the first dance. This will be swiftly followed by music from the excellent Joel White & the Diamond Experience, with a short set from The Great Fire.</p>
+	<p>We'll take to the dance floor at 8pm for the first dance. This will be swiftly followed by music from the excellent <a href="https://www.facebook.com/joelwhitemusic/videos/the-diamond-experience-showreel/652926245170245/">Joel White & the Diamond Experience</a>, with a short set from The Great Fire.</p>
 	<h3>Food</h3>
 	<p>Finger food will be <strong>served from 9pm</strong> and a selection of pick and mix sweets will be available throughout.</p>
 	<h3>Taxis</h3>

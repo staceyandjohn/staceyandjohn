@@ -12,7 +12,7 @@ show_tile: false
         <img src="assets/images/{{ page.image }}" alt="">
     </span>
 </div> -->
-<div class="8u 12u$(small)" style="margin-bottom: 2em">
+<div class="6u 12u$(small)" style="margin-bottom: 2em">
 	<h2>The Day</h2>
 	<p>Please aim to <strong>arrive at <a href="../venue">the venue</a> at 4:00pm</strong></p>
 	<h3>The ceremony</h3>
@@ -24,11 +24,11 @@ show_tile: false
 	<p>Dinner will be followed by speeches.</p>
 	<p>Please ensure you <a href="../rsvp">select your dinner options when you RSVP</a>.</p>
 </div>
-<div class="8u 12u$(small)" style="margin-bottom: 2em">
+<div class="6u 12u$(small)" style="margin-bottom: 2em">
 	<h2>The Evening</h2>
 	<p>The evening activities <strong>start at 8pm</strong>.</p>
 	<h3>Music</h3>
-	<p>We'll take to the dance floor at 8pm for the first dance. This will be swiftly followed by music from the excellent Joel White & the Diamond Experience, with a short set from The Great Fire. </p>
+	<p>We'll take to the dance floor at 8pm for the first dance. This will be swiftly followed by music from the excellent Joel White & the Diamond Experience, with a short set from The Great Fire.</p>
 	<h3>Food</h3>
 	<p>Finger food will be <strong>served from 9pm</strong> and a selection of pick and mix sweets will be available throughout.</p>
 	<h3>Taxis</h3>

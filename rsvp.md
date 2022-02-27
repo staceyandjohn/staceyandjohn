@@ -34,65 +34,65 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		<h2>Dinner</h2>
 		<h3>Starter</h3>
 		<div class="field first" style="margin-bottom: 0;">
-			<input type="radio" id="meat1a" name="starter_guest1" value="meat1a">
+			<input type="radio" id="meat1a" name="starter_guest1" value="beef">
 			<label for="meat1a">
 				<h4>Seared fillet of beef carpaccio</h4>
 				<p style="margin-bottom:0;">rocket pesto, parmesan-roasted parsnip curls</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="veg1a" name="starter_guest1" value="veg1a">
+			<input type="radio" id="veg1a" name="starter_guest1" value="burrata">
 			<label for="veg1a">
 				<h4>Smoked burrata</h4>
 				<p style="margin-bottom:0;">maple-roasted squash, pistachio, pomegranate</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="vegan1a" name="starter_guest1" value="veg2a">
-			<label for="veg2a">
+			<input type="radio" id="vegan1a" name="starter_guest1" value="vegan">
+			<label for="vegan1a">
 				<h4>Vegan option</h4>
 				<p style="margin-bottom:0;">details to decided</p>
 			</label>
 		</div>
 		<h3>Main course</h3>
 		<div class="field first" style="margin-bottom: 0;">
-			<input type="radio" id="meat1b" name="main_guest1" value="meat1b">
+			<input type="radio" id="meat1b" name="main_guest1" value="chicken">
 			<label for="meat1b">
 				<h4>Chicken supreme</h4>
 				<p style="margin-bottom:0;">truffled sausage, potato pureé, baby leeks, black cabbage and tarragon jus</p>
 			</label>
 		</div>
 		<div class="field" style="margin-bottom: 0;">
-			<input type="radio" id="veg1b" name="main_guest1" value="veg1b">
+			<input type="radio" id="veg1b" name="main_guest1" value="cauliflower">
 			<label for="veg1b">
 				<h4>Roast ras'el hamout spiced cauliflower</h4>
 				<p style="margin-bottom:0;">white wine & buttern bean reduction, grilled asparagus, spinach pureé</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="vegan1b" name="main_guest1" value="veg2b">
-			<label for="veg2b">
+			<input type="radio" id="vegan1b" name="main_guest1" value="vegan">
+			<label for="vegan1b">
 				<h4>Roast ras'el hamout spiced cauliflower (vegan)</h4>
 				<p style="margin-bottom:0;">A vegan version of the cauliflower main</p>
 			</label>
 		</div>
 		<div class="field" style="margin-bottom: 0;">
 			<h3>Drink</h3>
-			<input type="radio" id="red1" name="drink_guest1" value="wine1">
+			<input type="radio" id="red1" name="drink_guest1" value="red wine">
 			<label for="red1">
 				<h4>Red wine</h4>
 			</label>
-			<input type="radio" id="white1" name="drink_guest1" value="wine1">
+			<input type="radio" id="white1" name="drink_guest1" value="white wine">
 			<label for="white1">
 				<h4>White wine</h4>
 			</label>
-			<input type="radio" id="cock1" name="drink_guest1" value="wine1">
+			<input type="radio" id="cock1" name="drink_guest1" value="cocktail">
 			<label for="cock1">
 				<h4>Cocktail (below)</h4>
 			</label>
-			<input type="radio" id="na1" name="drink_guest1" value="wine1">
+			<input type="radio" id="na1" name="drink_guest1" value="non-alcoholic">
 			<label for="na1">
-				<h4>No alcohol</h4>
+				<h4>Non-alcoholic</h4>
 			</label>
 			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 		</div>
@@ -122,21 +122,21 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Starter</h3>
 		<div class="field first" style="margin-bottom: 0;">
-			<input type="radio" id="meat2a" name="starter_guest2" value="meat1a">
+			<input type="radio" id="meat2a" name="starter_guest2" value="beef">
 			<label for="meat2a">
 				<h4>Seared fillet of beef carpaccio</h4>
 				<p style="margin-bottom:0;">rocket pesto, parmesan-roasted parsnip curls</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="veg2a" name="starter_guest2" value="veg1a">
+			<input type="radio" id="veg2a" name="starter_guest2" value="burrata">
 			<label for="veg2a">
 				<h4>Smoked burrata</h4>
 				<p style="margin-bottom:0;">maple-roasted squash, pistachio, pomegranate</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="vegan2a" name="starter_guest2" value="veg2a">
+			<input type="radio" id="vegan2a" name="starter_guest2" value="vegan">
 			<label for="vegan2a">
 				<h4>Vegan option</h4>
 				<p style="margin-bottom:0;">details to decided</p>
@@ -144,21 +144,21 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<h3>Main course</h3>
 		<div class="field first" style="margin-bottom: 0;">
-			<input type="radio" id="meat2b" name="main_guest2" value="meat1b">
+			<input type="radio" id="meat2b" name="main_guest2" value="chicken">
 			<label for="meat2b">
 				<h4>Chicken supreme</h4>
 				<p style="margin-bottom:0;">truffled sausage, potato pureé, baby leeks, black cabbage and tarragon jus</p>
 			</label>
 		</div>
 		<div class="field" style="margin-bottom: 0;">
-			<input type="radio" id="veg2b" name="main_guest2" value="veg1b">
+			<input type="radio" id="veg2b" name="main_guest2" value="cauliflower">
 			<label for="veg2b">
 				<h4>Roast ras'el hamout spiced cauliflower</h4>
 				<p style="margin-bottom:0;">white wine & buttern bean reduction, grilled asparagus, spinach pureé</p>
 			</label>
 		</div>
 		<div class="field " style="margin-bottom: 0;">
-			<input type="radio" id="vegan2b" name="main_guest2" value="veg2b">
+			<input type="radio" id="vegan2b" name="main_guest2" value="vegan">
 			<label for="vegan2b">
 				<h4>Roast ras'el hamout spiced cauliflower (vegan)</h4>
 				<p style="margin-bottom:0;">A vegan version of the cauliflower main</p>
@@ -166,21 +166,21 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		</div>
 		<div class="field" style="margin-bottom: 0;">
 			<h3>Drink</h3>
-			<input type="radio" id="red2" name="drink_guest2" value="wine2">
+			<input type="radio" id="red2" name="drink_guest2" value="red wine">
 			<label for="red2">
 				<h4>Red wine</h4>
 			</label>
-			<input type="radio" id="white2" name="drink_guest2" value="wine2">
+			<input type="radio" id="white2" name="drink_guest2" value="white wine">
 			<label for="white2">
 				<h4>White wine</h4>
 			</label>
-			<input type="radio" id="cock2" name="drink_guest2" value="wine1">
+			<input type="radio" id="cock2" name="drink_guest2" value="cocktail">
 			<label for="cock2">
 				<h4>Cocktail (below)</h4>
 			</label>
-			<input type="radio" id="na2" name="drink_guest2" value="wine2">
+			<input type="radio" id="na2" name="drink_guest2" value="non-alcoholic">
 			<label for="na2">
-				<h4>No alcohol</h4>
+				<h4>Non-alcoholic</h4>
 			</label>
 			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 		</div>

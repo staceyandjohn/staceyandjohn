@@ -59,29 +59,29 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		<div class="field " style="margin-bottom: 0;">
 			<input type="radio" id="vegan1b" name="main_guest1" value="veg2b">
 			<label for="veg2b">
-				<h4>Vegan option</h4>
-				<p style="margin-bottom:0;">details to decided</p>
+				<h4>Roast ras'el hamout spiced cauliflower (Vegan)</h4>
+				<p style="margin-bottom:0;">A vegan version of the cauliflower main</p>
 			</label>
 		</div>
 		<div class="field" style="margin-bottom: 0;">
 			<h3>Drink</h3>
-			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 			<input type="radio" id="red1" name="drink_guest1" value="wine1">
 			<label for="red1">
-				<h4>Red</h4>
+				<h4>Red wine</h4>
 			</label>
 			<input type="radio" id="white1" name="drink_guest1" value="wine1">
 			<label for="white1">
-				<h4>White</h4>
+				<h4>White wine</h4>
 			</label>
 			<input type="radio" id="cock1" name="drink_guest1" value="wine1">
 			<label for="cock1">
-				<h4>Cocktail</h4>
+				<h4>Cocktail (below)</h4>
 			</label>
 			<input type="radio" id="na1" name="drink_guest1" value="wine1">
 			<label for="na1">
 				<h4>No alcohol</h4>
 			</label>
+			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 		</div>
 		<div class="field first">
 			<label for="diet">Dietary requirements (optional)</label>
@@ -135,29 +135,29 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		<div class="field " style="margin-bottom: 0;">
 			<input type="radio" id="vegan2b" name="main_guest2" value="veg2b">
 			<label for="vegan2b">
-				<h4>Vegan option</h4>
-				<p style="margin-bottom:0;">details to decided</p>
+				<h4>Roast ras'el hamout spiced cauliflower (Vegan)</h4>
+				<p style="margin-bottom:0;">A vegan version of the cauliflower main</p>
 			</label>
 		</div>
 		<div class="field" style="margin-bottom: 0;">
 			<h3>Drink</h3>
-			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 			<input type="radio" id="red2" name="drink_guest2" value="wine2">
 			<label for="red2">
-				<h4>Red</h4>
+				<h4>Red wine</h4>
 			</label>
 			<input type="radio" id="white2" name="drink_guest2" value="wine2">
 			<label for="white2">
-				<h4>White</h4>
+				<h4>White wine</h4>
 			</label>
 			<input type="radio" id="cock2" name="drink_guest2" value="wine1">
 			<label for="cock2">
-				<h4>Cocktail</h4>
+				<h4>Cocktail (below)</h4>
 			</label>
 			<input type="radio" id="na2" name="drink_guest2" value="wine2">
 			<label for="na2">
 				<h4>No alcohol</h4>
 			</label>
+			<p>Cocktail: "English Garden" gin, apple, cranberry, elderflower</p>
 		</div>
 		<div class="field first">
 			<label for="diet">Dietary requirements (optional)</label>

@@ -19,6 +19,19 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 			<label for="email">Phone number</label>
 			<input type="text" name="_replyto" id="email" placeholder="mail@johnhaynes" />
 		</div>
+		<div class="field first" style="margin-bottom: 0;">
+			<input type="radio" id="attending1" name="rsvp1" value="true">
+			<label for="attending1">
+				<h4>Will be attending</h4>
+			</label>
+		</div>
+		<div class="field first" style="margin-bottom: 0;">
+			<input type="radio" id="not-attending1" name="rsvp1" value="false">
+			<label for="not-attending1">
+				<h4>Will not be attending</h4>
+			</label>
+		</div>
+		<h2>Dinner</h2>
 		<h3>Starter</h3>
 		<div class="field first" style="margin-bottom: 0;">
 			<input type="radio" id="meat1a" name="starter_guest1" value="meat1a">
@@ -94,6 +107,18 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 		<div class="field">
 			<label for="name2">Name</label>
 			<input type="text" name="name2" id="name2" placeholder="First name" />
+		</div>
+		<div class="field first" style="margin-bottom: 0;">
+			<input type="radio" id="attending2" name="rsvp2" value="true">
+			<label for="attending2">
+				<h4>Will be attending</h4>
+			</label>
+		</div>
+		<div class="field first" style="margin-bottom: 0;">
+			<input type="radio" id="not-attending2" name="rsvp2" value="false">
+			<label for="not-attending2">
+				<h4>Will not be attending</h4>
+			</label>
 		</div>
 		<h3>Starter</h3>
 		<div class="field first" style="margin-bottom: 0;">

@@ -8,7 +8,7 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 
 <p>Use this form to let us know who's coming and what your options are for food and drink.</p>
 
-<form action="https://formspree.io/f/mrgjeaka" method="POST">
+<form action="https://formspree.io/f/xoqrwqyq" method="POST">
 	<fieldset style="padding:1em;" class="box">
 		<h2>Your choices</h2>
 		<div class="field half first">

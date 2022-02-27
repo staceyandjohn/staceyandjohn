@@ -16,7 +16,7 @@ image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 			<input type="text" name="name" id="name" placeholder="First name" />
 		</div>
 		<div class="field half">
-			<label for="email">Phone number</label>
+			<label for="email">Email</label>
 			<input type="text" name="_replyto" id="email" placeholder="mail@johnhaynes" />
 		</div>
 		<div class="field first" style="margin-bottom: 0;">

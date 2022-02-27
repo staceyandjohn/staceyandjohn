@@ -1,9 +1,9 @@
 ---
 layout: page
-title: thanks
+title: Thank you for responding
 description: 'thank you'
 nav-menu: false
 image: 'assets/images/t-type/t-type-hollow-dark.jpg'
 ---
 
-<h3>Thank you for letting us know.</h3>
+<h3>Your response has been saved. If you change your mind, please contact John via mail@johnhayn.es</h3>

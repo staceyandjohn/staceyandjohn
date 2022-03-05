@@ -23,7 +23,7 @@ show_tile: false
 	<p>You will be served a two course dinner, followed by wedding cake and/or your choice from our cheese table.</p>
 	<p>Dinner will be followed by speeches.</p>
 	<div class="box">
-		<h4>Choose your options</h4>
+		<h4>Choose your dinner options</h4>
 	    Please ensure you  <a href="../rsvp">select your dinner options when you RSVP</a>. 
     </div>  
 </div>

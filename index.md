@@ -22,7 +22,9 @@ show_tile: false
 	<p><strong>Starters served at 6:00pm</strong></p>
 	<p>You will be served a two course dinner, followed by wedding cake and/or your choice from our cheese table.</p>
 	<p>Dinner will be followed by speeches.</p>
-	<p>Please ensure you <a href="../rsvp">select your dinner options when you RSVP</a>.</p>
+	<div class="box">
+	    Please ensure you  <a href="../rsvp">select your dinner options when you RSVP</a>. 
+    </div>  
 </div>
 <div class="6u 12u$(small)" style="margin-bottom: 2em">
 	<h2>The Evening</h2>

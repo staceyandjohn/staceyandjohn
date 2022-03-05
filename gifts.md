@@ -17,6 +17,6 @@ nav-menu: true
 		<p>If you'd like to give us a gift, we'd really appreciate a contribution towards our trip.</p>
 	</div>
 	<div class="6u 12u$(small)" style="margin-bottom: 2em">
-		<img src="https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_400,q_65,w_587/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DTafjorden_Valldal_kajakk_-_Foto_cred_Magnus_R._Furset_1280-780_1260804720.png%26dh%3D450%26dw%3D800%26t%3D4">
+		<img src="../assets/images/IMG_5555.JPG">
 	</div>
 </div>

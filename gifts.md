@@ -10,7 +10,7 @@ nav-menu: true
 		<h2>We're planning a Canadian adventure</h2>
 		<p>We are planning a trip to Vancouver and will be exploring the area to discover the widlife of British Columbia and the Yukon, including:</p>
 		<ul>
-			<li>Spirit and grizzly bears in the Great Bear Rainforest</li>
+			<li>Spotting spirit and grizzly bears in the Great Bear Rainforest</li>
 			<li>Getting up close with whales from a kayak on the Campbell river</li>
 			<li>Watching the Northern lights from the Alaska highway</li>
 		</ul>

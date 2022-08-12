@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %} 
+    
+    
+    <!-- Main -->
+    <div id="main" class="alt">
+
+      <!-- One -->
+      <section id="one">
+      	<div class="inner">
+          <div class="box">
+            <h1>Upcoming Gigs</h1>
+            {% for post in site.posts reversed %}
+            {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+        	  {% if date >= now and post.title != 404 %}
+        	  {% if post.url %}<a href="{{ post.url }}"><header class="major">{% endif %}
+        	    <h2>{{ post.title }}</h2>
+              {% if post.live-date %}<p>Date: <strong>{{ post.live-date }}</strong></p>{% endif %}
+              {% if post.address %}<p>Venue: <strong>{{ post.address }}</strong></p>{% endif %}
+        	  </header>
+            {% if post.url %}</a>{% endif %}
+        	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+        	  {% if post.description %}<h3>{{ post.description }}</h3>{% endif %}
+            <p>{{ post.content }}</p>
+        	  {% endif %}
+            {% endfor %}
+        	</div>
+        </div>
+      </section>
+
+       <!-- Two -->
+      <section id="two">
+        <div class="inner">
+          <div class="box">
+            <h1>Previous Gigs</h1>
+            {% for post in site.posts reversed %}
+            {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% if date < now and post.title != 404 %}
+            <header class="major">
+              <h2>{{ post.title }}</h2>
+              {% if post.live-date %}<p>Date: <strong>{{ post.live-date }}</strong></p>{% endif %}
+              {% if post.address %}<p>Venue: <strong>{{ post.address }}</strong></p>{% endif %}
+            </header>
+            {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+            {% if post.description %}<h3>{{ post.description }}</h3>{% endif %}
+            <p>{{ post.content }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

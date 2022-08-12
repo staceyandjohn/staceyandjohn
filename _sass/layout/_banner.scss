@@ -11,18 +11,17 @@
 		
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		@include vendor('background-image', 'url("../images/default--wayfair.png")');
+		@include vendor('background-image', 'url("../images/great-fire-band.jpg")');
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 75vh;
+		height: 60vh;
 		padding-top: 4em;
-		margin-top:6em;
 		margin-bottom: -3.25em;
-		max-height: 40em;
+		max-height: 32em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
@@ -54,7 +53,7 @@
 				'filter 0.5s ease',
 				'-webkit-filter 0.5s ease'
 			));
-			padding: 2em;
+			padding: 0 !important;
 			position: relative;
 			z-index: 2;
 
@@ -90,12 +89,15 @@
 
 				p {
 					font-size: 1.2em;
+					font-weight: _font(weight-bold);
+					letter-spacing: _font(letter-spacing-alt);
+					text-transform: uppercase;
 				}
 			}
 		}
 
 		&.major {
-			height: 50vh;
+			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
 
@@ -158,10 +160,9 @@
 		}
 
 		@include breakpoint(xsmall) {
-			@include padding(2em, 0, (2em, 0, 0, 0));
+			@include padding(4em, 0, (2em, 0, 0, 0));
 
 			> .inner {
-				margin-top: 0;
 				.content {
 					p {
 						br {
@@ -172,7 +173,7 @@
 			}
 
 			&.major {
-				@include padding(2em, 0, (2em, 0, 0, 0));
+				@include padding(6em, 0, (2em, 0, 0, 0));
 			}
 		}
 	}

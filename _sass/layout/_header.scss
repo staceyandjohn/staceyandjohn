@@ -9,19 +9,16 @@
 #header-logo-container {
 	text-decoration:none;
 	display:flex;
-	justify-content: flex-start;
 	width:30%;
 	height:inherit;
-	max-width: calc(30% - 2em);
-	max-height:120px;
+	max-width:30%;
 	border:0;
 }
 
 #header-logo {
-	width:60%;
-	max-width:60%;
 	display:block;
 	margin:0;
+	width:100%
 }
 
 
@@ -35,21 +32,19 @@
 	#header {
 		@include vendor('display', 'flex');
 		/*background-color: _palette(bg-alt);*/
-		background-image: url('../images/lanterns.svg');
-		background-repeat: repeat-x;
-		background-color: none;
-		background-size: contain;
+		background-color: transparent;
 		/*box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);*/
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: auto;
-		padding: 8em 2em;
 		left: 0;
-		top:-1em;
 		letter-spacing: _font(letter-spacing-alt);
 		line-height: 3.25em;
-		position: absolute;
+		margin: 0;
+		padding:1em;
+		position: fixed;
 		text-transform: uppercase;
+		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
 
@@ -179,7 +174,6 @@
 		}
 
 		@include breakpoint(xlarge) {
-
 			nav {
 				a {
 					&[href="#menu"] {
@@ -208,15 +202,13 @@
 		}
 
 		@include breakpoint(small) {
-			/* height: 2.75em; */
+			height: 2.75em;
 			line-height: 2.75em;
-			padding: 6em 1em;
 
 			.logo {
 				padding: 0 1em;
-				width: 60%;
-				
 			}
+
 
 
 			#header-logo-container {
@@ -234,7 +226,7 @@
 					}
 
 					&[href="#menu"] {
-						padding-right: 1em !important;
+						padding-right: 3.25em !important;
 						align-self: center;
 
 						&:before, &:after {
@@ -254,7 +246,6 @@
 		}
 
 		@include breakpoint(xsmall) {
-
 			.logo {
 				span {
 					display: none;
@@ -265,10 +256,10 @@
 				a {
 					&[href="#menu"] {
 						overflow: hidden;
-						/*padding-right: 0 !important;
-						text-indent: 5em;*/
+						padding-right: 0 !important;
+						text-indent: 5em;
 						white-space: nowrap;
-						/*width: 5em;*/
+						width: 5em;
 						align-self: center;
 
 						&:before, &:after {

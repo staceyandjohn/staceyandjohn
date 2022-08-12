@@ -28,38 +28,14 @@
 		}
 
 		td {
-			padding: 0.75em;
-			box-sizing: border-box;
-			vertical-align: middle;
-			font-size: 1em;
-
-			label {
-				margin: 0;
-			}
-
-			p {
-				margin: 0;
-			}
-
-		}
-
-		.description {
-			width: 80%;
-			max-width: 80%;
-			text-align: left;
-		}
-
-		.price {
-			width: 20%;
-			max-width: 20%;
-			text-align: center;
+			padding: 0.75em 0.75em;
 		}
 
 		th {
 			color: _palette(fg-bold);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
-			padding: 0.75em;
+			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
 

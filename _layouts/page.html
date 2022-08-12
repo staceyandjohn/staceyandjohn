@@ -10,19 +10,7 @@
 
 <body>
 
-    {% include header.html %} 
-    <section style="margin-top: 6em">
-	    <div class="inner">
-			<div class="inner 100% row uniform">
-				<div class="12u 12u$(medium) links">
-				<h1>{{ page.title }}</h1>
-				{{ content }} 
-				</div>
-			</div>
-		</div>
-	</section>
-
-	{% include footer.html %}
+    {% include header.html %} {{ content }} {% include footer.html %}
 
 </body>
 

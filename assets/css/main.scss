@@ -12,19 +12,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-	
-	/* Custom CSS */
-	.sticky-quote {
-	position: sticky;
-	top: 10em; 
-
-		@include breakpoint(medium){
-			position: sticky;
-			top: 10em; 
-		}
-	}
-
-	/* Custom CSS */
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
@@ -51,16 +38,14 @@
 
 	@mixin inner {
 		> .inner {
-			@include padding(0, 0);
+			@include padding(6em, 0);
 			margin: 0 auto;
 			max-width: _size(inner);
 			width: calc(100% - 6em);
-			margin: 6em auto 0;
 
 			@include breakpoint(small) {
 				@include padding(3em, 0);
 				width: calc(100% - 3em);
-				margin: 0 auto;
 			}
 		}
 	}
@@ -86,7 +71,6 @@
 
 // Layout.
 
-	@import 'layout/guitarpage';
 	@import 'layout/header';
 	@import 'layout/banner';
 	@import 'layout/main';
@@ -94,4 +78,3 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
-	

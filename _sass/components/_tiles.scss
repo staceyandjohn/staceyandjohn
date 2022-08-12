@@ -19,9 +19,9 @@
 			@include vendor('align-items', 'center');
 			@include vendor('display', 'flex');
 			@include vendor('transition', (
-				'transform 0s ease',
-				'opacity 0s ease',
-				'filter 0s ease',
+				'transform 0.25s ease',
+				'opacity 0.25s ease',
+				'filter 1s ease',
 				'-webkit-filter 1s ease'
 			));
 			@include padding(4em, 4em);
@@ -66,20 +66,20 @@
 			}
 
 			&:before {
-				@include vendor('transition', 'opacity 0.4s ease');
+				@include vendor('transition', 'opacity 0.5s ease');
 				bottom: 0;
 				content: '';
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.5;
+				opacity: 0.85;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
 			}
 
 			&:after {
-				background-color: transparentize(_palette(bg), 0.25);
+				background-color: transparentize(_palette(bg), 0.75);
 				content: '';
 				display: block;
 				height: 100%;

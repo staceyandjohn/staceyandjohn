@@ -5,9 +5,9 @@
 
 // Duration.
 	$duration: (
-		menu:				0s,
-		transition:			0s,
-		banner:				0s,
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
 	);
 
 // Size.
@@ -20,9 +20,8 @@
 
 // Font.
 	$font: (
-		family:				('Poppins', Helvetica, sans-serif),
-		header:				('Poppins', 'cursive'),
-		family-fixed:		('Poppins', monospace),
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
 		letter-spacing:		0.025em,
@@ -31,20 +30,18 @@
 
 // Palette.
 	$palette: (
-		bg:					#ffffff,
-		bg-alt:				#ffffff,
-		fg:					#2f2f2f,
-		fg-bold:			#2f2f2f,
-		fg-light:			#E6BEAE,
-		border:				#E6BEAE,
-		border-bg:			#ffffff,
-		highlight:			#E6BEAE,
-		accent1:			#E6BEAE,
-		accent2:			#B2967D,
-		accent3:			#E7D8C9,
-		accent4:			#EEE4E1,
-		accent5:			#ffffff,
-		accent6:			#ffffff,
+		bg:					#242943,
+		bg-alt:				#2A2F4A,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#B45F82,
+		accent1:			#7BC2D2,
+		accent2:			#7BC2D2,
+		accent3:			#7BC2D2,
+		accent4:			#CD693B,
+		accent5:			#E580A9,
+		accent6:			#F7C157,
 	);
-
-

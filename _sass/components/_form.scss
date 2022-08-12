@@ -8,7 +8,7 @@
 
 	form {
 		margin: 0 0 _size(element-margin) 0;
-		background-color: #ffffff;
+
 		.field {
 			margin: 0 0 (_size(element-margin) * 1) 0;
 
@@ -63,11 +63,11 @@
 	label {
 		color: _palette(fg-bold);
 		display: block;
-		font-size: 1em;
+		font-size: 0.8em;
 		font-weight: _font(weight-bold);
-		letter-spacing: _font(letter-spacing);
+		letter-spacing: _font(letter-spacing-alt);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		/*text-transform: uppercase;*/
+		text-transform: uppercase;
 	}
 
 	input[type="text"],
@@ -78,25 +78,22 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
-		border: 1px solid _palette(border);
+		border: none;
 		border-radius: 0;
-		color: _palette(fg);
+		color: inherit;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
 
-
 		&:invalid {
 			box-shadow: none;
 		}
 
 		&:focus {
-			background: #FFFBE4;
 			border-color: _palette(highlight);
 			box-shadow: 0 0 0 2px _palette(highlight);
-			color:_palette(fg);
 		}
 	}
 
@@ -106,7 +103,7 @@
 		position: relative;
 
 		&:before {
-			color: #222;
+			color: _palette(border);
 			content: '\f078';
 			display: block;
 			height: _size(element-height);
@@ -156,8 +153,7 @@
 			position: relative;
 
 			&:before {
-				background: _palette(bg-alt);
-				border: 1px solid _palette(border);
+				background: _palette(border-bg);
 				content: '';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
@@ -173,7 +169,7 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(accent2);
+				background: _palette(fg-bold);
 				border-color: _palette(highlight);
 				content: '\f00c';
 				color: _palette(bg);

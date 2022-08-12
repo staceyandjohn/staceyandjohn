@@ -1,29 +1,34 @@
 # site settings
-title: Stacey and John are getting married on 28 May 2022
-subtitle: 28 May 2022
-email: wedding@johnhayn.es
-description:  
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://staceyandjohn.co.uk # the base hostname & protocol for your site
+title: Stacey & John Acoustic Duo
+subtitle: 2022
+email: mail@staceyandjohn.co.uk
+description: "Live Acoustic Duo for Events, Parties & Weddings"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: staceyandjohn.co.uk # the base hostname & protocol for your site
 author:
 street_address: 
-city:
+city: 
 state: 
 zip_code: 
-country:
-phone:
+country: 
+phone: 
 permalink: /:title/
-
-repository: staceyandjohn.github.io/staceyandjohn
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 5
+tiles-count: 4
 
 # social settings
-facebook_url: 
-instagram_url: https://www.instagram.com/staceyandjohn/
-youtube_url: 
+500px_url:
+facebook_url: https://www.facebook.com/The-Great-Fire-109788457226542
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://facebook.com/staceyandjohn
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
 
 # build settings
 markdown: kramdown
@@ -32,18 +37,6 @@ sass:
   style: compressed
 
 # sitemap
+url: "https://staceyandjohn.co.uk" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
-  - jekyll-airtable
-  - environment_variables_generator
-
-airtable:
-  enable_sync: true
-  base_uid: 'appp7C1MblPCnMePn'
-  airtable_api_key: ${{ secrets.GH_PAGES_TOKEN }}
-  tables:
-    - name: 'Use Cases' 
-    - name: 'Whitepapers'    
-    - name: 'Quotes'
-      long_text_columns:
-        - 'column name'

@@ -1,8 +1,8 @@
 # site settings
-title: Stacey & John Acoustic Duo
+title: 'Stacey & John: acoustic duo'
 subtitle: 2022
 email: mail@staceyandjohn.co.uk
-description: "Live Acoustic Duo for Events, Parties & Weddings"
+description: "Live acoustic duo for events, parties & weddings"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: staceyandjohn.co.uk # the base hostname & protocol for your site
 author:
@@ -20,7 +20,7 @@ tiles-count: 4
 
 # social settings
 500px_url:
-facebook_url: https://www.facebook.com/The-Great-Fire-109788457226542
+facebook_url: https://www.facebook.com/staceyandjohn
 github_url:
 gitlab_url: 
 googleplus_url: 

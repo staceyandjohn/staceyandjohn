@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ABOUT US
+title: Our story
 description: 'Our story'
 seo_description: 'One of the top cover bands in Sussex playing an eclectic, electric playlist from five decades of rock, pop, funk and blues. Find out more about the band.'
-nav-menu: true
+nav-menu: false
 ---
 
 <!-- Main -->

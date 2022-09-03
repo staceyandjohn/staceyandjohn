@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: WEDDINGS
-description: The songs and genres we play
+title: Weddings
+description: Find out what we can offer 
 seo_description: Find out which songs make up one of the most up-to-date set lists of any covers band.
 <!-- image: assets/images/pic11.jpg -->
 show_tile: true

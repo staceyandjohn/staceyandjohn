@@ -8,7 +8,6 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		@include vendor('background-image', 'url("../images/stacey-and-john-playing-in-a-meadow.jpeg")');
@@ -88,16 +87,16 @@
 				}
 
 				p {
-					font-size: 1.2em;
+					font-size: 2em;
 					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
-					text-transform: uppercase;
+					letter-spacing: _font(letter-spacing);
+					/*text-transform: uppercase;*/
 				}
 			}
 		}
 
 		&.major {
-			height: 95vh;
+			height: 80vh;
 
 			&.alt {
 				  opacity: 0.75;

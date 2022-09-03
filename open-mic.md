@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Open mic
-description: at Printers Playhouse
+title: Open mic nights
+description: Weekly at Printers Playhouse
 seo_description: Find out which songs make up one of the most up-to-date set lists of any covers band.
 <!-- image: assets/images/pic11.jpg -->
 show_tile: true
@@ -13,142 +13,8 @@ nav-menu: true
 <!-- One -->
 <section id="setlist" class="spotlights">
 	<div class="inner">
-		<h2>Top Songs</h2>
-		<p>We've carefully curated a list of songs from over five decades of music. These aren't your standard cover band songs; while we love playing cover band classics and crowd pleasers, you're equally likely to find us playing something that's currently on the radio.</p>
-		<div class="table-wrapper">
-			<table>
-				<thead>
-					<tr>
-						<th>Song</th>
-						<th>Artist</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1612</td>
-						<td>Vulfpeck</td>
-					</tr>
-					<tr>
-						<td>Back Pocket</td>
-						<td>Vulfpeck</td>
-					</tr>
-					<tr>
-						<td>Cry For You</td>
-						<td>Sofi Tukker</td>
-					</tr>
-					<tr>
-						<td>Don't Start Now</td>
-						<td>Dua Lipa</td>
-					</tr>
-					<tr>
-						<td>Don't Stop Me Now</td>
-						<td>Queen</td>
-					</tr>
-					<tr>
-						<td>Get Lucky</td>
-						<td>Pharrell Williams/Daft Punk</td>
-					</tr>
-					<tr>
-						<td>Girls Just Wanna Have Fun</td>
-						<td>Cyndi Lauper</td>
-					</tr>
-					<tr>
-						<td>Higher Ground</td>
-						<td>Stevie Wonder/RHCP</td>
-					</tr>
-					<tr>
-						<td>Higher Love</td>
-						<td>Steve Winwood/Kygo/Whitney Houston</td>
-					</tr>
-					<tr>
-						<td>I Believe In A Thing Called Love</td>
-						<td>The Darkness</td>
-					</tr>
-					<tr>
-						<td>I Don't Need No Doctor</td>
-						<td>John Schofield/John Mayer</td>
-					</tr>
-					<tr>
-						<td>I Want You Back</td>
-						<td>Jackson Five</td>
-					</tr>
-					<tr>
-						<td>Juice</td>
-						<td>Lizzo</td>
-					</tr>
-					<tr>
-						<td>Le Freak</td>
-						<td>Chic</td>
-					</tr>
-					<tr>
-						<td>Metrotech</td>
-						<td>Public Access TV</td>
-					</tr>
-					<tr>
-						<td>One of These Nights</td>
-						<td>The Eagles</td>
-					</tr>
-					<tr>
-						<td>One Kiss</td>
-						<td>Calvin Harris/Dua Lipa</td>
-					</tr>
-					<tr>
-						<td>Rather Be</td>
-						<td>Clean Bandit, Jess Glynne</td>
-					</tr>
-					<tr>
-						<td>Reptillia</td>
-						<td>The Strokes</td>
-					</tr>
-					<tr>
-						<td>Roxanne</td>
-						<td>The Police</td>
-					</tr>
-					<tr>
-						<td>Sexual</td>
-						<td>Neikid</td>
-					</tr>
-					<tr>
-						<td>Shake It Off</td>
-						<td>Taylor Swift</td>
-					</tr>
-					<tr>
-						<td>Sing It Back</td>
-						<td>Moloko</td>
-					</tr>
-					<tr>
-						<td>Somebody Else's Guy</td>
-						<td>Jocelyn Brown</td>
-					</tr>
-					<tr>
-						<td>Supermassive Black Hole</td>
-						<td>Muse</td>
-					</tr>
-					<tr>
-						<td>Superstition</td>
-						<td>Stevie Wonder</td>
-					</tr>
-					<tr>
-						<td>Uptown Funk</td>
-						<td>Bruno Mars/Mark Ronson</td>
-					</tr>
-					<tr>
-						<td>Walk Like An Egyptian</td>
-						<td>The Bangles</td>
-					</tr>
-					<tr>
-						<td>Walking On Sunshine</td>
-						<td>Katrina & The Waves</td>
-					</tr>
-				</tbody>
-				<!-- <tfoot>
-					<tr>
-						<td colspan="2"></td>
-						<td>100.00</td>
-					</tr>
-				</tfoot> -->
-			</table>
-		</div>
+		<h2>Open min night at Printers Playhouse</h2>
+		<p>Have we missed anyone? Basically anyone who needs a mic to express their art – come along! We're supported by a wonderful group of musicians who regularly take to the stage to support anyone that needs percussion, bass or guitar accompaniment.</p>
 		<div class="box">
 			<h3>Spotify Playlist</h3>
 			<p>Follow our Spotify Playlist to get a feel for our current live set</p>

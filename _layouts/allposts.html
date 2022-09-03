@@ -24,18 +24,23 @@
             {% for post in site.posts reversed %}
             {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
             {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
-        	  {% if date >= now and post.title != 404 %}
-        	  {% if post.url %}<a href="{{ post.url }}"><header class="major">{% endif %}
-        	    <h2>{{ post.title }}</h2>
+            {% if date >= now and post.title != 404 %}
+            {% if post.url %}<a href="{{ post.url }}"><header class="major">{% endif %}
+              <h2>{{ post.title }}</h2>
               {% if post.live-date %}<p>Date: <strong>{{ post.live-date }}</strong></p>{% endif %}
               {% if post.address %}<p>Venue: <strong>{{ post.address }}</strong></p>{% endif %}
-        	  </header>
+            </header>
             {% if post.url %}</a>{% endif %}
-        	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-        	  {% if post.description %}<h3>{{ post.description }}</h3>{% endif %}
+            {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+            {% if post.description %}<h3>{{ post.description }}</h3>{% endif %}
             <p>{{ post.content }}</p>
-        	  {% endif %}
+            {% endif %}
             {% endfor %}
+            <a href="/open-mic"><header class="major">
+              <h2>Open Stage night at Printers Playhoue</h2>
+              <p>Date: <strong>Every Wednesday night from 8pm</strong></p>
+              <p>Venue: <strong>44 Grove Road, Eastbourne</strong></p>
+            </header></a>
         	</div>
         </div>
       </section>

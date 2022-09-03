@@ -11,7 +11,7 @@
 		
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		@include vendor('background-image', 'url("../images/great-fire-band.jpg")');
+		@include vendor('background-image', 'url("../images/stacey-and-john-playing-in-a-meadow.jpeg")');
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -21,8 +21,8 @@
 		height: 60vh;
 		padding-top: 4em;
 		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
+		max-height: 90vh;
+		min-height: 90vh;
 		position: relative;
 		top: -3.25em;
 
@@ -97,9 +97,7 @@
 		}
 
 		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			height: 95vh;
 
 			&.alt {
 				  opacity: 0.75;
